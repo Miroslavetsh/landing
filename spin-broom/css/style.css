@@ -211,7 +211,7 @@ h1 span,
   text-align: center;
 }
 .main_bg {
-  background: url(../images1/12333.png) no-repeat top center;
+  background: url(../images/main_block/main_image.png) no-repeat top center;
   height: 424px;
   background-size: cover;
 }
@@ -254,7 +254,7 @@ h1 span,
   -ms-flex-align: center;
   align-items: center;
   text-align: left;
-  background: url(../images/list.png) no-repeat;
+  background: url(../images/main_block/list.png) no-repeat;
   background-size: 100%;
   font-weight: 600;
   width: 282px;
@@ -290,7 +290,7 @@ h1 span,
 .countbox .countbox-num {
   font-weight: bold;
   position: relative;
-  background: url("../images/count.png") no-repeat;
+  background: url("../images/main_block/count.png") no-repeat;
   margin-right: 25px;
   width: 74px;
   height: 71px;
@@ -409,7 +409,7 @@ h1 span,
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: url(../images/secure.png) no-repeat;
+  background: url(../images/main_block/icon_secure.png) no-repeat;
   width: 13px;
   height: 17px;
 }
@@ -588,7 +588,7 @@ h2 {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: url(../images/arrow.png);
+  background: url(../images/section_see/arrow.png);
   width: 19px;
   height: 32px;
 }
