@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <script async src="js/tag.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+    <!--<script>
+    function set_validator_errors(){
+        orderValidator.errorTitle = 'Пожалуйста, исправьте следующие ошибки'; 
+
+        orderValidator.errorNameField = 'Имя'; 
+        orderValidator.errorNameMess = 'Укажите своё имя'; 
+        
+        orderValidator.errorPhoneField = 'Телефон для связи'; 
+        orderValidator.errorPhoneMess = 'Введите правильный телефон'; 
+        
+        orderValidator.errorAddress = 'Введите правильный адрес'; 
+        orderValidator.errorRequired = 'обязательное поле'; 
+        orderValidator.errorMaxLength = 'допустимо максимум {1} символа'; 
+        orderValidator.errorMinLength = 'допустимо минимум {1} символа'; 
+        orderValidator.errorEmailField = 'E-mail';
+        orderValidator.errorEmail = 'указан не корректный email';
+        }
+    </script>
+    
+<script src="shared/form.validate.js?12"></script>
+<script src="shared/form.incomplete.js?10"></script>
+<script src="shared/main2.js?14"></script>-->
+
+    <meta charset="UTF-8" />
+    <meta content="width=device-width" name="viewport" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>HURRICANE SPIN BROOM</title>
+    <meta name="description" content="Віник для швидкого прибирання!" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,800&amp;subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "976362250145172");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=976362250145172&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+  </head>
+  <body>
+    <form style="display: none" method="POST" action="statistics.php">
+      <input type="hidden" name="url" value="http://demo.lp-base.pro/1367/" />
+      <a
+        href="statistics.php"
+        type="submit"
+        rel="nofollow"
+        style="text-align: center"
+        title="Отправить, Регистрация, Купить"
+        ><img
+          src="images/pixel.gif"
+          alt="register"
+          title="order"
+          border="0"
+          width="1"
+          height="1"
+      /></a>
+    </form>
+    <div class="wrap">
+      <header class="main_block">
+        <div class="main_title">
+          <div class="container">
+            <h1>
+              <span>Забудь про пил та сміття з новим механічним віником</span>
+              Spin Broom
+            </h1>
+          </div>
+        </div>
+        <div class="main_slog">
+          <div class="container">
+            Отримайте ефективне та швидке прибирання без зусиль! <br />
+          </div>
+        </div>
+        <div class="main_bg"></div>
+        <div class="price">
+          <div class="container">
+            <div class="price_block">
+              <div class="old_price">
+                <div class="numb">
+                  <span class="thu"><x-oldprice>900</x-oldprice> </span
+                  ><span class="cur"> <x-currency>грн</x-currency></span>
+                </div>
+              </div>
+              <div class="new_price">
+                <div class="numb">
+                  <x-newprice>549</x-newprice>
+                  <span class="cur"> <x-currency>грн</x-currency></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hurry">
+          <div class="container">
+            <div class="hl">Встигніть замовити<b>Зі знижкою</b></div>
+            <div class="hr">39<small>%</small></div>
+          </div>
+        </div>
+        <div class="count">
+          <div class="container">
+            <div class="countbox"></div>
+          </div>
+        </div>
+        <div class="sale_block">
+          <div class="container">
+            <form class="sale_form" action="order.php" method="post">
+              <input name="name" placeholder="Ваше ім'я" required type="text" />
+              <input
+                name="phone"
+                placeholder="Ваш телефон"
+                required
+                type="tel"
+              />
+              <div class="secure">
+                <span>Ваші дані під захистом</span>
+              </div>
+              <button type="submit" class="btn">ЗАМОВИТИ</button>
+            </form>
+          </div>
+        </div>
+        <div class="list">
+          <div class="container">
+            <ul>
+              <li>Зручність у використанні</li>
+              <li>Якість прибирання</li>
+              <li>Підходить для будь яких поверхонь</li>
+              <li>Не потребує совків та проводів</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="see">
+          <div class="stitle blue">
+            <div class="container">
+              <h2>Ви забудете ці проблеми <br /></h2>
+            </div>
+          </div>
+          <div class="container">
+            <div class="nature_slider">
+              <div class="ns_item">
+                <img alt src="images1/p11.jpg" />
+                <p>Величезний арсенал інструментів для прибирання</p>
+              </div>
+              <div class="ns_item">
+                <img alt src="images1/p2.jpeg" />
+                <p>Біль у попереку під час прибирання</p>
+              </div>
+              <div class="ns_item">
+                <img alt src="images1/p3.jpg" />
+                <p>Важкі пилососи та дроти</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="why">
+          <div class="stitle yellow">
+            <div class="container">
+              <h2>Чому <br />Hurricane Spin Broom?</h2>
+            </div>
+          </div>
+          <div class="gif">
+            <img src="images1/8.webp" alt />
+          </div>
+          <div class="why_block">
+            <div class="why_item">
+              <div class="container">
+                <div class="text">
+                  Віник ідеально впорається із будь яким сміттям
+                </div>
+                <div class="image"><img alt src="images/why1.png" /></div>
+              </div>
+            </div>
+            <div class="why_item">
+              <div class="container">
+                <div class="image"><img alt src="images/why2.png" /></div>
+                <div class="text">Легко очищується</div>
+              </div>
+            </div>
+            <div class="why_item">
+              <div class="container">
+                <div class="text">Віник не потребує совків</div>
+                <div class="image"><img alt src="images/why3.png" /></div>
+              </div>
+            </div>
+            <div class="why_item">
+              <div class="container">
+                <div class="image"><img alt src="images/why4.png" /></div>
+                <div class="text">
+                  З легкістью прибирає у важкодоступних місцях
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="specials">
+          <div class="specials_title">
+            <h1>
+              ОСОБЛИВОСТІ <br />
+              SPIN BROOM
+            </h1>
+          </div>
+          <div class="specials_item">
+            <img src="images/specials-1.png" alt="specials-1" />
+            <p class="specials_text">
+              Це простий і зручний прилад, що працює на принципі обертання
+              щетини. Він збирає сміття, пил і волосся з підлоги, завдяки чому
+              прибирання стає швидким і ефективним
+            </p>
+          </div>
+          <div class="specials_item">
+            <img src="images/specials-2.png" alt="specials-1" />
+            <p class="specials_text">
+              Він має компактний дизайн і легко керується однією рукою. Щоб
+              скинути сміття, просто натисніть кнопку відкриття контейнера і
+              викиньте зібрані забруднення
+            </p>
+          </div>
+          <div class="specials_bottom">
+            <p>Це зручно, швидко і без зайвих зусиль!</p>
+          </div>
+        </section>
+        <section class="characteristics">
+          <div class="characteristics_title">
+            <h2>
+              ХАРАКТЕРИСТИКИ <br />
+              SPIN BROOM
+            </h2>
+          </div>
+          <div class="characteristics_block">
+            <div class="characteristics_item">
+              <strong>Розміри:</strong>
+              <span>Д 34 см х Ш 18 см х В 110 см</span>
+            </div>
+            <div class="characteristics_item">
+              <strong>Матеріал основи щітки:</strong>
+              <span>ABS платик</span>
+            </div>
+            <div class="characteristics_item">
+              <strong>Вага:</strong>
+              <span>620 г</span>
+            </div>
+            <div class="characteristics_item">
+              <strong>Ручка з нержавіючої сталі</strong>
+            </div>
+          </div>
+          <div class="characteristics_image">
+            <img src="/images/characteristics.png" alt="characteristics" />
+          </div>
+        </section>
+        <section class="chose">
+          <div class="stitle yellow">
+            <div class="container">
+              <h2>Переваги віника Hurricane Spin Broom</h2>
+            </div>
+          </div>
+          <div class="preim_block nature_slider">
+            <div class="ns_item">
+              <img src="images1/g1.gif" alt />
+              <div class="container">
+                <p>
+                  Spin управляється виключно силою натискання на нього, тому
+                  немає ніяких батарей, кабелів.
+                </p>
+              </div>
+            </div>
+            <div class="ns_item">
+              <img src="images1/g3.gif" alt />
+              <div class="container">
+                <p>
+                  Ніщо не вислизає від цих обертових щіток, які доходять до
+                  плінтусів, в кутах і під меблями.
+                </p>
+              </div>
+            </div>
+            <div class="ns_item">
+              <img src="images1/g4.gif" alt />
+              <div class="container">
+                <p>
+                  Щоб спорожнити віник, просто натисніть кнопку, і все сміття
+                  випаде прямо у ваше відро для сміття.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="chose_bottom">
+            <div class="container">
+              <p>Прибирайте вдома легко та швидко з Hurricane Spin Broom</p>
+              <a class="btn" href="#footer">Замовити</a>
+            </div>
+          </div>
+        </section>
+        <section class="delivery">
+          <div class="delivery_top">
+            <h6>Як замовити?</h6>
+            <h1>ДОСТАВКА ТА ОПЛАТА</h1>
+          </div>
+
+          <div class="delivery_block">
+            <div class="delivery_item">
+              <div class="delivery_icon">
+                <img src="images/order.svg" alt="order" />
+              </div>
+
+              <div class="delivery_text">
+                <div class="delivery_title">Заявка</div>
+                <div class="delivery_subtitle">
+                  Залишаєте заявку на нашому сайті (заповнити форму внизу сайту)
+                </div>
+              </div>
+            </div>
+            <div class="delivery_item">
+              <div class="delivery_icon">
+                <img src="images/call.svg" alt="call" />
+              </div>
+
+              <div class="delivery_text">
+                <div class="delivery_title">Дзвінок</div>
+                <div class="delivery_subtitle">
+                  Наш менеджер до вас зателефонує для уточнення деталей
+                  замовлення
+                </div>
+              </div>
+            </div>
+            <div class="delivery_item">
+              <div class="delivery_icon">
+                <img src="images/delivery.svg" alt="delivery" />
+              </div>
+
+              <div class="delivery_text">
+                <div class="delivery_title">Доставка</div>
+                <div class="delivery_subtitle">
+                  Ваше замовлення відправляється Новою або Укр поштою протягом
+                  1-3 днів
+                </div>
+              </div>
+            </div>
+            <div class="delivery_item">
+              <div class="delivery_icon">
+                <img src="images/payment.svg" alt="payment" />
+              </div>
+
+              <div class="delivery_text">
+                <div class="delivery_title">Оплата</div>
+                <div class="delivery_subtitle">
+                  Оплата відбувається лише при отриманні замовлення, без
+                  передоплати
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <div class="stitle blue">
+            <div class="container">
+              <h2>Відгуки покупців</h2>
+            </div>
+          </div>
+          <div class="rev_wrap">
+            <div class="rev_block clear">
+              <div class="rev_item">
+                <div class="img">
+                  <img alt src="images1/12.webp" />
+                  <div class="name">
+                    Людмила <br />
+                    43 роки
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="container">
+                    <p>
+                      Чудовий інструмент для швидкого прибирання: Я в захваті
+                      від цього механічного віника Spin Broom. Він дійсно
+                      полегшує прибирання після обіду або вечері. Зручно
+                      користуватися і добре очищає підлогу від бруду і сміття.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="rev_item">
+                <div class="img">
+                  <img alt src="images1/22.webp" />
+                  <div class="name">Ольга <br />38 років</div>
+                </div>
+                <div class="text">
+                  <div class="container">
+                    <p>
+                      Справжній часо- та енергозберігаючий інструмент: Spin
+                      Broom - це насправді зручно. Він заощаджує мені час і
+                      зусилля при щоденному прибиранні в будинку. Немає потреби
+                      губити час на підключення та зарядку, як це буває з
+                      електричними пилососами.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="rev_item">
+                <div class="img">
+                  <img alt src="images1/oo3.jpg" />
+                  <div class="name">
+                    Вікторія <br />
+                    27 років
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="container">
+                    <p>
+                      Вирішила спробувати щось нове та легке у прибиранні і не
+                      пожалкувала! Дійсно крута та дієва річ, яка має бути у
+                      кожної господині!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="rev_item">
+                <div class="img">
+                  <img alt src="images/review-4.WEBP" />
+                  <div class="name">
+                    Ірина <br />
+                    30 років
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="container">
+                    <p>
+                      Spin Broom - це просто фантастичний винахід! Я заощаджую
+                      час і зусилля прибирання завдяки його ефективності. Легко
+                      керується і працює чудово. Рекомендую всім, хто цінує свій
+                      час
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="rev_item">
+                <div class="img">
+                  <img alt src="images/review-5.WEBP" />
+                  <div class="name">
+                    Олександр <br />
+                    32 роки
+                  </div>
+                </div>
+                <div class="text">
+                  <div class="container">
+                    <p>
+                      Spin Broom - неймовірно зручний і функціональний
+                      інструмент! Я вражений, як він швидко і ефективно прибирає
+                      пил та сміття з підлоги. Тепер мої щоденні прибирання
+                      стали набагато легшими. Відмінний винахід!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="main_block last_block">
+          <div class="main_title">
+            <div class="container">
+              <h2>
+                <span>Забудь про пил та сміття з новим механічним віником</span>
+                Spin Broom
+              </h2>
+            </div>
+          </div>
+          <div class="main_slog">
+            <div class="container">
+              Отримайте ефективне та швидке прибирання без зусиль! <br />
+            </div>
+          </div>
+          <div class="main_bg"></div>
+          <div class="list">
+            <div class="container">
+              <ul>
+                <li>Зручність у використанні</li>
+                <li>Якість прибирання</li>
+                <li>Підходить для будь яких поверхонь</li>
+                <li>Не потребує совків та проводів</li>
+              </ul>
+            </div>
+          </div>
+          <div class="price">
+            <div class="container">
+              <div class="price_block">
+                <div class="old_price">
+                  <div class="numb">
+                    <span class="thu"><x-oldprice>900</x-oldprice> </span
+                    ><span class="cur"> <x-currency>грн</x-currency></span>
+                  </div>
+                </div>
+                <div class="new_price">
+                  <div class="numb">
+                    <x-newprice>549</x-newprice>
+                    <span class="cur"> <x-currency>грн</x-currency></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hurry">
+            <div class="container">
+              <div class="hl">Встигніть замовити<b>Зі знижкою</b></div>
+              <div class="hr">39<small>%</small></div>
+            </div>
+          </div>
+          <div class="count">
+            <div class="container">
+              <div class="countbox"></div>
+            </div>
+          </div>
+          <div class="sale_block">
+            <div class="container">
+              <form class="sale_form" action="order.php" method="post">
+                <input
+                  name="name"
+                  placeholder="Ваше ім'я"
+                  required
+                  type="text"
+                />
+                <input
+                  name="phone"
+                  placeholder="Ваш телефон"
+                  required
+                  type="tel"
+                />
+                <div class="secure">
+                  <span>Ваші дані під захистом</span>
+                </div>
+                <button type="submit" class="btn">ЗАМОВИТИ</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer id="footer">
+        <div class="copy">
+          <center>
+            <p>ТОВ "Бест-Бай"<br /><br />Київ Арсенальна 14</p>
+            <br />
+
+            <p class="conf-link doclinks">
+              <a class="nav-link" href="politics.html" target="_blank"
+                >Політика конфеденційності</a
+              ><br />
+              <a class="nav-link" href="agreement.html" target="_blank"></a
+              ><br />
+
+              <br />
+            </p>
+          </center>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery.min_1.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/common.js"></script>
+    <style>
+      .form-control {
+        border: none;
+        background-color: rgb(233, 233, 233);
+        width: 100%;
+        height: 46px;
+        border-radius: 30px;
+        color: #000000;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto 10px;
+        outline: none;
+      }
+    </style>
+  </body>
+</html>
