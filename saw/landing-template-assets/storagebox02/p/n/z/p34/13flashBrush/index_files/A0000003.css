@@ -356,12 +356,12 @@
 .footer {
     text-align: center;
     padding: 40px 0 30px;
-    background: #2e2f33
+    background: #000;
 }
 
 .footer a {
     font-size: 14px;
-    color: #d5d5d6
+    color: #0094FF;
 }
 
 .b1__header {
