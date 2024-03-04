@@ -81,6 +81,21 @@
       href="landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/css-1000.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"
+    ></script>
+
     <link href="css/style.css" rel="stylesheet" />
     <style>
       .offer_section .field[name="name"] {
@@ -294,88 +309,14 @@
       <section class="b4">
         <!-- TODO: Make one more button form form <div class="title_yellow"></div> -->
       </section>
-      <!-- <section class="b5">
-        <h2>яК зробити замовлення<strong>?</strong></h2>
-        <ul class="ship">
-          <li>
-            <span></span>
-            <p>Залишайте заявку на сайті</p>
-          </li>
-          <li>
-            <span></span>
-            <p>Наш менеджер уточнить деталі замовлення</p>
-          </li>
-          <li>
-            <span></span>
-            <p>Служба доставки доставяє ваш товар</p>
-          </li>
-          <li>
-            <span></span>
-            <p>Оплата при отриманні</p>
-          </li>
-        </ul>
-      </section> -->
-
-      <!-- <section class="b6">
+      <section class="b6">
         <h2>Відгуки покупців</h2>
         <div class="reviews">
-          <div>
-            <img
-              src="http://lp-mobi.biz/landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/rev10000.jpg"
-            />
-            <h3>ДМИтро Осідач, 42 роки</h3>
-            <p>Чудова пила,дуже зручна. Повністю задоволений.</p>
-          </div>
-          <div>
-            <img
-              src="http://lp-mobi.biz/landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/rev20000.jpg"
-            />
-            <h3>КАТЕРИНА квіткова, 43 роки</h3>
-            <p>
-              Я повністю задоволенна товаром. Якість матеріалів супер! Замовила
-              сразу 2 шт , так як діє знижка на кількість , а річ в домі
-              потрібна. Дякую
-            </p>
-          </div>
-          <div>
-            <img
-              src="http://lp-mobi.biz/landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/rev30000.jpg"
-            />
-            <h3>СЕргій Комарницький, 45 років</h3>
-            <p><br /></p>
-            <p>
-              <span
-                style="
-                  color: rgb(65, 65, 65);
-                  font-family: sans-serif;
-                  font-size: 14px;
-                  font-style: normal;
-                  font-variant-ligatures: normal;
-                  font-variant-caps: normal;
-                  font-weight: 400;
-                  letter-spacing: normal;
-                  orphans: 2;
-                  text-align: left;
-                  text-indent: 0px;
-                  text-transform: none;
-                  widows: 2;
-                  word-spacing: 0px;
-                  -webkit-text-stroke-width: 0px;
-                  white-space: normal;
-                  background-color: rgb(255, 255, 255);
-                  text-decoration-thickness: initial;
-                  text-decoration-style: initial;
-                  text-decoration-color: initial;
-                  display: inline !important;
-                  float: none;
-                "
-                id="isPasted"
-                >Рекомендую!</span
-              >
-            </p>
-          </div>
+          <div>Slide 1</div>
+          <div>Slide 2</div>
+          <div>Slide 3</div>
         </div>
-      </section> -->
+      </section>
       <!-- michael-k90 -->
       <section class="title_yellow title small">
         <h2>ЗАМОВЛЯЙТЕ ПРЯМО ЗАРАЗ</h2>
@@ -562,15 +503,25 @@
     <script
       type="text/javascript"
       src="landing-template-assets/common/js/previewYouTube.js"
-    >
-      </link>
-          <script src="landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/slick000.js">
-    </script>
+    ></script>
+    <script src="landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/slick000.js"></script>
     <script src="landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/main0000.js"></script>
     <script src="landing-template-assets/storagebox02/p/n/z/p34/13flashBrush/index_files/counter.js"></script>
     <script
       src="landing-template-assets/storagebox02/js/modal.js"
       type="text/javascript"
     ></script>
+    <script>
+      $(document).ready(function () {
+        $(".slider").slick();
+      });
+      $("#slider").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+      });
+    </script>
+
+    <script></script>
   </body>
 </html>
