@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Bebas Neue Regular';
+    font-family: 'Avenir Regular';
     src: url("AvenirNextCyr-Regular.woff") format('woff');
     font-weight: 400;
     font-style: normal;
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     src: url("AvenirNextCyr-Bold.woff") format('opentype');
     font-weight: 700;
     font-style: normal;
@@ -258,7 +258,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.3em
@@ -373,7 +373,7 @@ footer:after {
     border-radius: 4px;
     -webkit-border-radius: 4px;
     text-align: center;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-size: 38px;
     font-weight: 700;
     text-transform: uppercase;
@@ -421,7 +421,7 @@ footer:after {
 
 h2 {
     font-size: 40px;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     text-align: center;
     font-weight: 700;
     line-height: 1.100em
@@ -494,7 +494,7 @@ h2 {
     width: 50%;
     height: 100%;
     float: left;
-    font-family: 'Bebas Neue Regular';
+    font-family: 'Avenir Regular';
     font-weight: 400;
     font-size: 36px;
     line-height: 74px;
@@ -505,7 +505,7 @@ h2 {
     width: 50%;
     height: 100%;
     float: left;
-    font-family: 'Bebas Neue Regular';
+    font-family: 'Avenir Regular';
     font-weight: 400;
     font-size: 36px;
     line-height: 74px;
@@ -530,7 +530,7 @@ h2 {
     height: 100%;
     float: right;
     background: #fbf503;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     color: #222;
     font-size: 52px;
@@ -542,7 +542,7 @@ h2 {
     height: 100%;
     float: right;
     background: #fbf503;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     color: #222;
     font-size: 52px;

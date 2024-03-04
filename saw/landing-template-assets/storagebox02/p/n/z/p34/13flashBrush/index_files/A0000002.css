@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 28px;
     font-weight: 700;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 13px
@@ -45,7 +45,7 @@
     background: #ffd400;
     font-size: 38px;
     font-weight: 700;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     border-radius: 4px;
     -webkit-border-radius: 4px;
     margin-bottom: 10px;
@@ -70,7 +70,7 @@
 .countbox-secs-text {
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Bebas Neue Regular';
+    font-family: 'Avenir Regular';
     color: #fff;
     text-align: center;
     text-transform: uppercase

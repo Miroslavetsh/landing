@@ -6,7 +6,7 @@
 .b1 h2 {
     color: #fff;
     font-size: 17px;
-    font-family: 'Bebas Neue Regular';
+    font-family: 'Avenir Regular';
     font-weight: 400;
     text-align: center;
     letter-spacing: 3.4px;
@@ -32,7 +32,7 @@
     display: inline-block;
     font-size: 22px;
     color: #fff;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     text-transform: uppercase;
     padding: 0 5px;
@@ -56,7 +56,7 @@
 }
 
 .sale {
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     font-size: 18px;
     text-align: center;
@@ -91,7 +91,7 @@
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Bebas Neue Regular';
+    font-family: 'Avenir Regular';
     font-weight: 400;
     margin-top: 21px;
     border-bottom: 1px dashed;
@@ -108,7 +108,7 @@
     height: 34px;
     border-bottom: 2px solid #675f08;
     line-height: 34px;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     margin: 0 5px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .5)
@@ -147,7 +147,7 @@
 
 .place p {
     font-size: 18px;
-    font-family: 'Bebas Neue Regular';
+    font-family: 'Avenir Regular';
     font-weight: 400;
     line-height: 22px
 }
@@ -220,7 +220,7 @@
     background: #00b775;
     margin: 0 auto 10px;
     font-size: 46px;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     line-height: 71px
 }
@@ -277,7 +277,7 @@
     background: #fff;
     color: #222;
     font-size: 18px;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     text-align: center;
     line-height: 34px;
@@ -380,7 +380,7 @@
 
 .b1__info {
     text-transform: uppercase;
-    font-family: 'Bebas Neue Bold';
+    font-family: 'Avenir Bold';
     font-weight: 700;
     font-size: 22px;
     position: absolute;
