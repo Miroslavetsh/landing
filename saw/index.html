@@ -129,38 +129,33 @@
 
   <body>
     <div class="wrap">
-      <section class="b1 end">
-        <div class="b1__header">
-          <h1>
-            <span style="font-size: 15px; color: #ffff; display: block">Мiнi пила Supretto</span>
-          </h1>
+      <section class="first-block">
+        <div class="first-block_title">
+          <h1>Міні пила supretto</h1>
+          <h3>зручна та ефективна у використанні</h3>
         </div>
-        <div
-          class="b1__image"
-          style="
-            background-image: url(storage/images/block1_header/main_photo.png);
-          "
-        >
-          <div class="sale">
-            <!-- <p><span style="font-size: 18px">акцiя! &nbsp;</span></p> -->
-            <p>
-              <!-- <span style="font-size: 18px"><strong>35</strong>%</span> -->
-            </p>
-            <!-- <p><span style="font-size: 18px">знижка</span></p> -->
+        <div class="first-block_image" style="margin-bottom: -8px">
+          <img src="images/first-block/main.jpg" alt="First image" />
+        </div>
+        <div class="first-block_price">
+          <div class="first-block_before">
+            <p>Звичайна ціна:</p>
+            <strong>2000грн</strong>
+          </div>
+          <div class="first-block_after">
+            <p>Ціна зі знижкою:</p>
+            <strong>1399грн</strong>
           </div>
         </div>
-        <div class="b1__info"></div>
-      </section>
-      <section class="b8">
         <div class="countbox-title-text">
-          <p>До кiнця акцiї залишилося:</p>
+          <p>ПРОПОЗИЦІЯ ДІЄ:</p>
         </div>
         <div class="countbox">
           <div class="countbox-num">
             <div class="countbox-hours1"><span></span>0</div>
             <div class="countbox-hours2"><span></span>0</div>
             <div class="countbox-hours-text">
-              <p>Годин</p>
+              <p>Години:</p>
             </div>
           </div>
           <div class="countbox-hours-text"></div>
@@ -169,7 +164,7 @@
             <div class="countbox-mins1"><span></span>0</div>
             <div class="countbox-mins2"><span></span>0</div>
             <div class="countbox-mins-text">
-              <p>Хвилин</p>
+              <p>Хвилини:</p>
             </div>
           </div>
           <div class="countbox-mins-text"></div>
@@ -178,41 +173,38 @@
             <div class="countbox-secs1"><span></span>0</div>
             <div class="countbox-secs2"><span></span>0</div>
             <div class="countbox-secs-text">
-              <p>Секунд</p>
+              <p>Секунди:</p>
             </div>
           </div>
         </div>
-        <div class="price_2 clearfix">
-          <div class="before-title">
-            <p>Звичайна цiна:</p>
+        <!-- <div class="first-block_additional">
+          <div class="first-block_item">
+            <div class="first-block_icon">
+              <img src="images/first-block/comfortable.svg" alt="comfort" />
+            </div>
+            <div class="first-block_text">Зручність та якість</div>
           </div>
-          <div class="old-cost">
-            <p>1599</p>
-            грн
+          <div class="first-block_item">
+            <div class="first-block_icon">
+              <img src="images/first-block/delivery.svg" alt="delivery" />
+            </div>
+            <div class="first-block_text">Швидка доставка</div>
           </div>
-          <div class="new-cost">
-            <p>1199 грн</p>
+          <div class="first-block_item">
+            <div class="first-block_icon">
+              <img src="images/first-block/payment.svg" alt="payment" />
+            </div>
+            <div class="first-block_text">Оплата при отриманні</div>
           </div>
-        </div>
+        </div> -->
+      </section>
+      <section class="b8 container">
         <form
           action="order.php"
           method="post"
           class="m1-form lv2-form lv2-form1 lv2-form-validation-by-alert"
           id="lv-formLanding1"
         >
-          <input
-            type="hidden"
-            name="_token"
-            value="oy2qgUdNwoIcPMIYXlSnmI8X2F0qH4ZjbnDEjdmg"
-          />
-          <input type="hidden" name="price" value="1199" />
-          <input type="hidden" name="uid" value="" />
-          <input type="hidden" name="pid" value="" />
-          <input type="hidden" name="utm_source" value="" />
-          <input type="hidden" name="utm_medium" value="" />
-          <input type="hidden" name="utm_term" value="" />
-          <input type="hidden" name="utm_content" value="" />
-          <input type="hidden" name="utm_campaign" value="" />
           <input
             class="field"
             name="name"
@@ -227,7 +219,7 @@
             required
             type="tel"
           />
-          <button type="submit" class="button-m">
+          <button type="submit" class="first-block_button">
             <p>Зробити замовлення</p>
           </button>
         </form>
@@ -238,7 +230,7 @@
       <section class="about container">
         <div class="about_item item">
           <div class="about_image">
-            <img src="images/engine.jpg" alt="Powerful Engine" />
+            <img src="images/engine.png" alt="Powerful Engine" />
           </div>
 
           <div class="about_text">
@@ -279,9 +271,10 @@
       </section>
       <!-- owmen17 -->
       <section class="b4">
-        <!-- TODO: Make the button instead of title here -->
-        <div class="title_yellow">
-          <h2>Переваги Мiнi пили</h2>
+        <div class="container">
+          <a href="#lv-formLanding1" style="text-decoration: none">
+            <div class="first-block_button">ЗРОБИТИ ЗАМОВЛЕННЯ</div>
+          </a>
         </div>
       </section>
       <section class="characteristics container">
@@ -303,7 +296,11 @@
         </div>
       </section>
       <section class="b4">
-        <!-- TODO: Make one more button form form <div class="title_yellow"></div> -->
+        <div class="container" style="padding-bottom: 20px;">
+          <a href="#lv-formLanding1" style="text-decoration: none">
+            <div class="first-block_button">ЗРОБИТИ ЗАМОВЛЕННЯ</div>
+          </a>
+        </div>
       </section>
       <section class="b6">
         <h2 class="title" style="color: #fff">Вiдгуки покупцiв</h2>
@@ -371,9 +368,9 @@
         </div>
       </section>
       <!-- michael-k90 -->
-      <section class="title_yellow title small">
-        <h2>ЗАМОВЛЯЙТЕ ПРЯМО ЗАРАЗ</h2>
-      </section>
+      <a href="#lv-formLanding1" style="text-decoration: none">
+        <div class="first-block_button">ЗАМОВЛЯЙТЕ ПРЯМО ЗАРАЗ</div>
+      </a>
       <section class="delivery container">
         <div class="delivery_top">
           <h6>Як замовити?</h6>
@@ -434,44 +431,33 @@
         </div>
       </section>
       <!-- bizlife_inc -->
-      <section class="b1 end">
-        <div class="b1__header">
-          <h1>
-            <span style="color: rgb(40, 50, 78); font-size: 60px"
-              >Мiнi пила SUpretto</span
-            >
-          </h1>
+      <section class="first-block">
+        <div class="first-block_title">
+          <h1>Міні пила supretto</h1>
+          <h3>зручна та ефективна у використанні</h3>
         </div>
-        <div
-          class="b1__image"
-          style="
-            background-image: url(storage/images/landings/14093/rBjDZu63MDBSzVDvmF88BhOmAWc5Z7EF5F1bTFDA.png);
-          "
-        >
-          <div class="sale">
-            <p><span style="font-size: 14px">акцiя!</span></p>
-            <p>
-              <span style="font-size: 14px"><strong>35</strong>% </span>
-            </p>
-            <p>
-              <span style="font-size: 14px">знижка<br /></span>
-            </p>
-            <p><br /></p>
+        <div class="first-block_image" style="margin-bottom: -8px">
+          <img src="images/first-block/main.jpg" alt="First image" />
+        </div>
+        <div class="first-block_price">
+          <div class="first-block_before">
+            <p>Звичайна ціна:</p>
+            <strong>2000грн</strong>
+          </div>
+          <div class="first-block_after">
+            <p>Ціна зі знижкою:</p>
+            <strong>1399грн</strong>
           </div>
         </div>
-        <div class="b1__info"></div>
-      </section>
-      <!-- endzeit_____ -->
-      <section class="b8">
         <div class="countbox-title-text">
-          <p>До кiнця акцiї залишилося:</p>
+          <p>ПРОПОЗИЦІЯ ДІЄ:</p>
         </div>
         <div class="countbox">
           <div class="countbox-num">
             <div class="countbox-hours1"><span></span>0</div>
             <div class="countbox-hours2"><span></span>0</div>
             <div class="countbox-hours-text">
-              <p>Годин</p>
+              <p>Години:</p>
             </div>
           </div>
           <div class="countbox-hours-text"></div>
@@ -480,7 +466,7 @@
             <div class="countbox-mins1"><span></span>0</div>
             <div class="countbox-mins2"><span></span>0</div>
             <div class="countbox-mins-text">
-              <p>Хвилин</p>
+              <p>Хвилини:</p>
             </div>
           </div>
           <div class="countbox-mins-text"></div>
@@ -489,41 +475,38 @@
             <div class="countbox-secs1"><span></span>0</div>
             <div class="countbox-secs2"><span></span>0</div>
             <div class="countbox-secs-text">
-              <p>Секунд</p>
+              <p>Секунди:</p>
             </div>
           </div>
         </div>
-        <div class="price_2 clearfix">
-          <div class="before-title">
-            <p>Звичайна цiна:</p>
+        <!-- <div class="first-block_additional">
+          <div class="first-block_item">
+            <div class="first-block_icon">
+              <img src="images/first-block/comfortable.svg" alt="comfort" />
+            </div>
+            <div class="first-block_text">Зручність та якість</div>
           </div>
-          <div class="old-cost">
-            <p>1599</p>
-            грн
+          <div class="first-block_item">
+            <div class="first-block_icon">
+              <img src="images/first-block/delivery.svg" alt="delivery" />
+            </div>
+            <div class="first-block_text">Швидка доставка</div>
           </div>
-          <div class="new-cost">
-            <p>1199 грн</p>
+          <div class="first-block_item">
+            <div class="first-block_icon">
+              <img src="images/first-block/payment.svg" alt="payment" />
+            </div>
+            <div class="first-block_text">Оплата при отриманні</div>
           </div>
-        </div>
+        </div> -->
+      </section>
+      <section class="b8 container">
         <form
           action="order.php"
           method="post"
           class="m1-form lv2-form lv2-form1 lv2-form-validation-by-alert"
           id="lv-formLanding1"
         >
-          <input
-            type="hidden"
-            name="_token"
-            value="oy2qgUdNwoIcPMIYXlSnmI8X2F0qH4ZjbnDEjdmg"
-          />
-          <input type="hidden" name="price" value="1199" />
-          <input type="hidden" name="uid" value="" />
-          <input type="hidden" name="pid" value="" />
-          <input type="hidden" name="utm_source" value="" />
-          <input type="hidden" name="utm_medium" value="" />
-          <input type="hidden" name="utm_term" value="" />
-          <input type="hidden" name="utm_content" value="" />
-          <input type="hidden" name="utm_campaign" value="" />
           <input
             class="field"
             name="name"
@@ -538,10 +521,13 @@
             required
             type="tel"
           />
-          <button type="submit" class="button-m">
+          <button type="submit" class="first-block_button">
             <p>Зробити замовлення</p>
           </button>
         </form>
+        <div class="stock">
+          <p>залишилося <strong>8</strong>&nbsp; по акцiї</p>
+        </div>
       </section>
       <footer class="footer">
         <span> ТОВ "Бест-Бай"м. Київ, вул. Арсенальна, 14 </span>
