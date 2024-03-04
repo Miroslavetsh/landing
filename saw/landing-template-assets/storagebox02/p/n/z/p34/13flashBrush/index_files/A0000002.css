@@ -14,7 +14,7 @@
     font-weight: 700;
     font-family: 'Avenir Bold';
     text-transform: uppercase;
-    color: #fff;
+    color: #333333;
     margin-bottom: 13px
 }
 
@@ -71,7 +71,7 @@
     font-size: 18px;
     font-weight: 400;
     font-family: 'Avenir Regular';
-    color: #fff;
+    color: 333333;
     text-align: center;
     text-transform: uppercase
 }
