@@ -263,9 +263,42 @@
   font-family: "Avenir Regular";
   font-weight: 300;
 }
+
+.first-block_additional{
+  background: #0074AE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 22px 8px 22px;
+  margin: 0 auto;
+}
+
+.first-block_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-block_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  margin-right: 8px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.first-block_text{
+  color: #FFFFFF;
+  line-height: 1.1;
+}
 .first-block_price {
   display: flex;
 }
+
 .first-block_before,
 .first-block_after {
   padding: 20px;
