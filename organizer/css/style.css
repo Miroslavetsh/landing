@@ -9,7 +9,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  background: #0074AE;
+  background: #fff;
   gap: 24px;
   padding-left: 32px;
   padding-right: 32px;
@@ -220,6 +220,7 @@
 }
 .b8.container {
   gap: 0;
+  background: #0074AE;
 }
 .b8.container form input.field {
   text-align-last: left;
