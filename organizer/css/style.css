@@ -260,7 +260,7 @@
   padding-left: 0;
 }
 .countbox-hours1 {
-  margin-left: 36px;
+  margin-left: 24px;
 }
 .countbox-num div:not(:last-child) {
   background: #0074ae;
@@ -362,10 +362,6 @@
   height: 34px !important;
   text-align-last: left;
 }
-.countbox .countbox-num:first-child {
-  margin-left: 24px;
-}
-
 .stock strong {
   color: #ffffff;
   background: #ee3737;
