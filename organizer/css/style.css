@@ -9,7 +9,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  background: #333e58;
+  background: #0074AE;
   gap: 24px;
   padding-left: 32px;
   padding-right: 32px;
@@ -200,7 +200,7 @@
 }
 .first-block_title {
   text-transform: uppercase;
-  background: #333e58;
+  background: #0074AE;
   text-align: center;
   color: #fff;
   padding: 16px;
@@ -216,7 +216,7 @@
   font-family: "Avenir Regular";
 }
 .first-block form {
-  background: #333e58;
+  background: #0074AE;
 }
 .b8.container {
   gap: 0;
@@ -253,7 +253,7 @@
   margin-left: 36px;
 }
 .countbox-num div:not(:last-child) {
-  background: #333e58;
+  background: #0074AE;
   color: #fff;
 }
 .countbox-title-text {
@@ -291,5 +291,5 @@
   color: #333333;
 }
 .stock {
-  background: #333e58;
+  background: #0074AE;
 }
