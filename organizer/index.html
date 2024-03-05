@@ -177,20 +177,30 @@
           class="m1-form lv2-form lv2-form1 lv2-form-validation-by-alert"
           id="landing-form"
         >
-          <input
-            class="field"
-            name="name"
-            placeholder="Ваше iм'я"
-            required
-            type="text"
-          />
-          <input
+          <label class="form_input" for="name">
+            <div class="form_icon">
+              <img src="images/icons/man.png" alt="contact" />
+            </div>
+            <input
+              class="field"
+              name="name"
+              placeholder="Ваше iм'я"
+              required
+              type="text"
+            />
+          </label>
+          <label class="form_input" for="name">
+            <div class="form_icon">
+              <img src="images/icons/phone.png" alt="phone" />
+            </div>
+            <input
             class="field phone_input"
             name="phone"
             placeholder="Ваш телефон"
             required
             type="tel"
           />
+          </label>
           <button type="submit" class="first-block_button">
             <p>Зробити замовлення</p>
           </button>
