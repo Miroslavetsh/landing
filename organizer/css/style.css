@@ -204,6 +204,9 @@
 .first-block {
   padding-top: 0;
 }
+.first-block_image img {
+  width: 100%;
+}
 .first-block_title {
   text-transform: uppercase;
   background: #333e58;
