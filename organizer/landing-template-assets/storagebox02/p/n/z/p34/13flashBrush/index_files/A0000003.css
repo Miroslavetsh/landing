@@ -93,7 +93,6 @@
     text-transform: uppercase;
     font-family: 'Avenir Regular';
     font-weight: 400;
-    margin-top: 21px;
     border-bottom: 1px dashed;
     padding-bottom: 4px
 }
@@ -349,7 +348,6 @@
 
 .b8 {
     padding-bottom: 21px;
-    border-bottom: 1px solid #484b54
 }
 
 .footer {
@@ -372,7 +370,7 @@
 .b1__image {
     position: relative;
     height: 430px;
-    width: 430px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -282,7 +282,8 @@ body {
 }
 
 .wrap {
-    width: 430px;
+    max-width: 480px;
+    width: 100%;
     padding: 0;
     margin: 0 auto;
     background: #fff
