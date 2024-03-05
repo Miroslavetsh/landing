@@ -232,7 +232,7 @@
 }
 .first-block_button {
   text-shadow: 0px 4px 4px 0px #00000040;
-  background: #ffd400;
+  background: #EE3737;
   width: 100%;
   outline: none;
   border: none;
@@ -293,4 +293,8 @@
 }
 .stock {
   background: #0074AE;
+}
+
+.stock strong {
+  background: #EE3737;
 }
