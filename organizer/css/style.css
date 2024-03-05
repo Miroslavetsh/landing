@@ -4,7 +4,7 @@
   padding: 12px;
   background: #fff;
   border-radius: 8px;
-  border: 3px solid #0074AE;
+  border: 3px solid #0074ae;
 }
 .container {
   display: flex;
@@ -62,7 +62,7 @@
   padding-bottom: 20px;
 }
 .delivery_top {
-  color: #fff !important;
+  color: #333 !important;
   text-align: center;
 }
 .delivery_top h6 {
@@ -209,7 +209,7 @@
 }
 .first-block_title {
   text-transform: uppercase;
-  background: #0074AE;
+  background: #0074ae;
   text-align: center;
   color: #fff;
   padding: 16px;
@@ -225,11 +225,11 @@
   font-family: "Avenir Regular";
 }
 .first-block form {
-  background: #0074AE;
+  background: #0074ae;
 }
 .b8.container {
   gap: 0;
-  background: #0074AE;
+  background: #0074ae;
 }
 .b8.container form input.field {
   text-align-last: left;
@@ -241,7 +241,7 @@
 }
 .first-block_button {
   text-shadow: 0px 4px 4px 0px #00000040;
-  background: #EE3737;
+  background: #ee3737;
   width: 100%;
   outline: none;
   border: none;
@@ -250,7 +250,7 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   padding: 12px 20px;
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -263,7 +263,7 @@
   margin-left: 36px;
 }
 .countbox-num div:not(:last-child) {
-  background: #0074AE;
+  background: #0074ae;
   color: #fff;
 }
 .countbox-title-text {
@@ -274,8 +274,8 @@
   font-weight: 300;
 }
 
-.first-block_additional{
-  background: #0074AE;
+.first-block_additional {
+  background: #0074ae;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -283,26 +283,26 @@
   margin: 0 auto;
 }
 
-.first-block_item{
+.first-block_item {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.first-block_icon{
+.first-block_icon {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 31px;
   height: 31px;
   border-radius: 50%;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-right: 8px;
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-.first-block_text{
-  color: #FFFFFF;
+.first-block_text {
+  color: #ffffff;
   line-height: 1.1;
 }
 .first-block_price {
@@ -334,7 +334,7 @@
   color: #333333;
 }
 .stock {
-  background: #0074AE;
+  background: #0074ae;
 }
 .form_input {
   padding: 6px 20px;
@@ -367,6 +367,6 @@
 }
 
 .stock strong {
-  color: #FFFFFF;
-  background: #EE3737;
+  color: #ffffff;
+  background: #ee3737;
 }
