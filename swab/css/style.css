@@ -366,3 +366,44 @@
   color: #ffffff;
   background: #ee3737;
 }
+.bullets {
+  background: #0074ae;
+  padding: 8px 0 20px;
+  color: #fff;
+}
+.bullets .title {
+  margin-bottom: 12px;
+  font-family: "Avenir Regular";
+  font-weight: 100;
+}
+.bullets ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.bullets ul li {
+  border-radius: 4px;
+  background: #fff;
+  color: #0074ae;
+  font-weight: 700;
+  width: 48%;
+  position: relative;
+  font-size: 16px;
+  gap: 0.25rem;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+}
+.bullets ul li::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: #0074ae;
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translate(0, -50%);
+}
