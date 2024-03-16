@@ -1,0 +1,17 @@
+@font-face {
+ font-family: 'Acrom';
+ src: url('../fonts/subset-Acrom-Bold.woff2') format('woff2'),
+ url('../fonts/subset-Acrom-Bold.woff') format('woff'),
+ url('../subset-Acrom-Bold.html') format('truetype');
+ font-weight: 700;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'Acrom';
+ src: url('../fonts/subset-Acrom-ExtraBold.woff2') format('woff2'),
+ url('../fonts/subset-Acrom-ExtraBold.woff') format('woff'),
+ url('../subset-Acrom-ExtraBold.html') format('truetype');
+ font-weight: 800;
+ font-style: normal;
+}
