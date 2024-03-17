@@ -515,27 +515,8 @@
               }
             </style>
 
-            <div class="swiper-container gallery-slider one">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="images\IMG_9445.WEBP" alt="" />
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="images\2.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images\3.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="images\nabor_kuhonnyh_prinadlezhnostey_na_podstavke_19_shtuk_kuhonnye_aksessuary.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="swiper-button-prev one"></div>
-              <div class="swiper-button-next one"></div>
+            <div>
+              <img src="images\IMG_9445.WEBP" alt="" />
             </div>
             <br />
             <div class="price">
@@ -548,42 +529,6 @@
                 <div class="val"><span>999</span><i>грн</i></div>
               </div>
             </div>
-            <!--                <div class="megasale">-->
-            <!--                    <p><br>-->
-            <!--                        <b>Пропозиція дійсна з-->
-            <!--                            <script>-->
-            <!--                                dayMs = 86400000 * 3;-->
-            <!--                                Data = new Date(new Date() - dayMs);-->
-            <!--                                Year = Data.getFullYear();-->
-            <!--                                Month = Data.getMonth() + 1;-->
-            <!--                                Day = Data.getDate();-->
-            <!--                                if (Day < 10) {-->
-            <!--                                    Day = "0" + Day;-->
-            <!--                                }-->
-            <!--                                if (Month < 10) {-->
-            <!--                                    Month = "0" + Month;-->
-            <!--                                }-->
-            <!--                                document.write("" + Day + "." + Month + "." + Year + "");-->
-            <!--                            </script>-->
-            <!--                            по-->
-            <!--                            <script>-->
-            <!--                                dayMs = 86400000 * 0;-->
-            <!--                                Data = new Date(new Date() - dayMs);-->
-            <!--                                Year = Data.getFullYear();-->
-            <!--                                Month = Data.getMonth() + 1;-->
-            <!--                                Day = Data.getDate();-->
-            <!--                                if (Day < 10) {-->
-            <!--                                    Day = "0" + Day;-->
-            <!--                                }-->
-            <!--                                if (Month < 10) {-->
-            <!--                                    Month = "0" + Month;-->
-            <!--                                }-->
-            <!--                                document.write("" + Day + "." + Month + "." + Year + "");-->
-            <!--                            </script>-->
-            <!--                        </b>-->
-            <!--                    </p>-->
-            <!--                    <div>&nbsp;</div>-->
-            <!--                </div>-->
             <br />
             <style>
               .megasale {
@@ -598,26 +543,6 @@
                 font-size: 1.1em;
               }
             </style>
-            <div class="swiper-container gallery-thumbs one">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="images\IMG_9445.WEBP" alt="" />
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="images\2.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images\3.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img
-                    src="images\nabor_kuhonnyh_prinadlezhnostey_na_podstavke_19_shtuk_kuhonnye_aksessuary.jpg"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
           </div>
 
           <ul class="bullet">
@@ -932,9 +857,6 @@
                 <img src="images\3.jpg" alt="" />
               </div>
               <div class="swiper-slide">
-                <img src="images\IMG_9446.WEBP" alt="" />
-              </div>
-              <div class="swiper-slide">
                 <img
                   src="images\nabor_kuhonnyh_prinadlezhnostey_na_podstavke_19_shtuk_kuhonnye_aksessuary.jpg"
                   alt=""
@@ -963,9 +885,6 @@
               </div>
               <div class="swiper-slide">
                 <img src="images\3.jpg" alt="" />
-              </div>
-              <div class="swiper-slide">
-                <img src="images\IMG_9446.WEBP" alt="" />
               </div>
               <div class="swiper-slide">
                 <img
@@ -1052,27 +971,6 @@
 
     <script>
       $(window).on("load", function () {
-        var slider = new Swiper(".gallery-slider.one", {
-          slidesPerView: 1,
-          centeredSlides: true,
-          loop: true,
-          loopedSlides: 6,
-          navigation: {
-            nextEl: ".swiper-button-next.one",
-            prevEl: ".swiper-button-prev.one",
-          },
-        });
-
-        var thumbs = new Swiper(".gallery-thumbs.one", {
-          slidesPerView: "auto",
-          spaceBetween: 10,
-          centeredSlides: true,
-          loop: true,
-          slideToClickedSlide: true,
-        });
-
-        slider.controller.control = thumbs;
-        thumbs.controller.control = slider;
         var slider2 = new Swiper(".gallery-slider.two", {
           slidesPerView: 1,
           centeredSlides: true,
@@ -1096,14 +994,9 @@
         thumbs2.controller.control = slider2;
       });
     </script>
-    <!-- end new -->
-    <!-- Подключение jQuery плагина Masked Input -->
     <script src="js\jquery.maskedinput.min.js"></script>
     <script>
-      //Код jQuery, установливающий маску для ввода телефона элементу input
-      //1. После загрузки страницы,  когда все элементы будут доступны выполнить...
       $(function () {
-        //2. Получить элемент, к которому необходимо добавить маску
         $(".phone").mask("+38(999) 999-9999");
       });
     </script>
