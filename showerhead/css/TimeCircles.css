@@ -1,0 +1,62 @@
+/**
+ *  This element is created inside your target element
+ *  It is used so that your own element will not need to be altered
+ **/
+.time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/**
+ *  This is all the elements used to house all text used
+ * in time circles
+ **/
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+
+/* .time_circles > div:before {
+    content: "";
+    position: absolute;
+    top: -26px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    left: 10px;
+   
+} */
+
+
+
+
+/**
+ *  Titles (Days, Hours, etc)
+ **/
+.time_circles > div > h4 {
+    margin: 18px 0 0 0;
+    padding: 0px;
+    text-align: center;
+    font-weight: 400;
+    color: #292a30;
+    position: relative;
+    text-transform: none;
+    font-size: 13px!important;
+}
+
+/**
+ *  Time numbers, ie: 12
+ **/
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px!important;
+    font-weight: 600;
+        line-height: 0.36em!important;
+    color: #292a30;
+}
+
