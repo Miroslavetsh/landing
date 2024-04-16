@@ -17,7 +17,7 @@ for (n = 0; n < v.length; n++) {
     y.appendChild(c);
     y.onclick = function() {
         var a = document.createElement("iframe");
-        a.setAttribute("src", "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1&rel=0&showinfo=0");
+        a.setAttribute("src", "https://www.youtube.com/embed/" + this.id + "?si=7km69zF4lB8zwYeB&autoplay=1&autohide=1&border=0&wmode=opaque&enablejsapi=1&rel=0&showinfo=0");
         a.setAttribute("allowfullscreen","");
         a.style.width = this.style.width;
         a.style.height = this.style.height;

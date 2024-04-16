@@ -195,7 +195,6 @@ table {
 }
 .header_bottom {
   padding-top: 55px;
-  background: url(../img/main_bg.jpg) no-repeat top center;
   height: 720px;
   position: relative;
   z-index: 2;
@@ -740,7 +739,7 @@ h2:before {
 /* diff */
 
 .diff {
-  background: url(../img/diff_bg.jpg) no-repeat top center;
+  background: url(../img/turbo_nahui.png) no-repeat top center;
   height: 493px;
 }
 .diff_block {
@@ -1102,7 +1101,6 @@ br.mvis {
     font-size: 22px;
   }
   .header_bottom {
-    background: url(../img/main_bg_p.jpg) no-repeat top center;
     height: 775px;
     padding-top: 60px;
   }
@@ -1199,7 +1197,7 @@ br.mvis {
     margin-left: 0;
   }
   .diff {
-    background: url(../img/diff_bg_p.jpg) no-repeat top center;
+    background: url(../img/turbo_nahui.png) no-repeat top center;
     height: 525px;
     padding-top: 40px;
   }
@@ -1365,7 +1363,6 @@ br.mvis {
     padding: 0;
   }
   .header_bottom {
-    background: url(../img/main_bg_m.jpg) no-repeat top center;
     height: 1370px;
     padding-top: 20px;
   }
@@ -1410,7 +1407,6 @@ br.mvis {
     display: block;
     width: 420px;
     margin-left: -69px;
-    margin-top: 503px;
     border-radius: 0;
   }
   .sale_form {
@@ -1505,12 +1501,12 @@ br.mvis {
     transform: none;
   }
   .diff {
-    background: url(../img/diff_bg_m.jpg) no-repeat top center;
-    height: 820px;
+    background: url(../img/turbo_nahui.png) no-repeat center 100px;
+    height: 100%;
     padding-top: 40px;
   }
   .diff_block {
-    margin-top: 205px;
+    margin-top: 305px;
   }
   .diff_item {
     position: static;
@@ -1520,7 +1516,7 @@ br.mvis {
     max-width: 100% !important;
   }
   .use {
-    background: url(../img/use_bg_m.jpg) no-repeat top center;
+    background: #73C698;
     height: 710px;
     padding-top: 45px;
   }
@@ -1537,7 +1533,7 @@ br.mvis {
   }
   .use_item {
     width: 100%;
-    margin: 325px 0 0 0;
+    margin: 36px 0 0 0;
   }
   .expert {
     background: url(../img/expert_bg_m.jpg) no-repeat top center;
