@@ -1501,12 +1501,12 @@ br.mvis {
     transform: none;
   }
   .diff {
-    background: url(../img/turbo_nahui.png) no-repeat center 100px;
+    background: url(../img/turbo_nahui.png) no-repeat center 120px;
     height: 100%;
     padding-top: 40px;
   }
   .diff_block {
-    margin-top: 305px;
+    margin-top: 335px;
   }
   .diff_item {
     position: static;
