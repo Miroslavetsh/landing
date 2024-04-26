@@ -16,7 +16,7 @@ $crm_token      = '57725ddb6f27154fce5d6471c23687b4';
 $crm_adress     = 'http://kriveshko.lp-crm.biz';
 $product_id     = '6';
 $product_price  = '299';
-$product_title  = 'Столик';
+$product_title  = 'Контейнер';
 
 $name           = $_POST['name'];
 $phone          = preg_replace('/[^0-9]/', '', $_POST['phone']);;
