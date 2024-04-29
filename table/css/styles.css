@@ -1022,3 +1022,45 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
   background: #60a001;
   border-radius: 5px;
 }
+
+.bullets {
+  background: linear-gradient(135deg, #634a60 0%, #36293b 100%);
+  padding: 20px 0;
+  color: #fff;
+}
+.bullets .title {
+  margin-bottom: 12px;
+  font-family: "Avenir Regular";
+  font-weight: 100;
+}
+.bullets ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.bullets ul li {
+  border-radius: 4px;
+  background: #fff;
+  color: #021E3B;
+  font-weight: 700;
+  width: 80%;
+  position: relative;
+  font-size: 16px;
+  gap: 0.25rem;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+}
+.bullets ul li::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: #021E3B;
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  transform: translate(0, -50%);
+}
